@@ -58,11 +58,10 @@ def parse_website():
                         continue
                     endpoint = endpoint_elem.contents[0].split('(')[0].strip()
                     endpoint = endpoint.split(' ')[0]
+            if provider['name'] in DEFAULT_SCHEMES:
+                schemes.extend(DEFAULT_SCHEMES[provider['name']])
             if len(schemes) == 0:
-                if provider['name'] in DEFAULT_SCHEMES:
-                    schemes = DEFAULT_SCHEMES[provider['name']]
-                else:
-                    continue
+                continue
             if endpoint is None:
                 continue
             provider.update({'schemes': schemes, 'endpoint': endpoint})
@@ -72,4 +71,3 @@ def parse_website():
 
 if __name__ == '__main__':
     json.dump(parse_website(), sys.stdout, indent=4)
-

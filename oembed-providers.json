@@ -1,0 +1,519 @@
+[
+    {
+        "url": "http://www.ifttt.com/", 
+        "schemes": [
+            "http://ifttt.com/recipes/*"
+        ], 
+        "endpoint": "http://www.ifttt.com/oembed/", 
+        "name": "IFTTT"
+    }, 
+    {
+        "url": "http://www.youtube.com/", 
+        "schemes": [
+            "http://youtube.com/*", 
+            "https://youtube.com/*", 
+            "http://youtu.be/*"
+        ], 
+        "endpoint": "http://www.youtube.com/oembed", 
+        "name": "YouTube"
+    }, 
+    {
+        "url": "http://www.flickr.com/", 
+        "schemes": [
+            "http://*.flickr.com/photos/*", 
+            "http://flic.kr/p/*"
+        ], 
+        "endpoint": "http://www.flickr.com/services/oembed/", 
+        "name": "Flickr"
+    }, 
+    {
+        "url": "http://www.viddler.com/", 
+        "schemes": [
+            "http://www.viddler.com/v/*"
+        ], 
+        "endpoint": "http://www.viddler.com/oembed/", 
+        "name": "Viddler"
+    }, 
+    {
+        "url": "http://qik.com/", 
+        "schemes": [
+            "http://qik.com/video/*", 
+            "http://qik.com/*"
+        ], 
+        "endpoint": "http://qik.com/api/oembed.{format}", 
+        "name": "Qik"
+    }, 
+    {
+        "url": "http://revision3.com/", 
+        "schemes": [
+            "http://*.revision3.com/*"
+        ], 
+        "endpoint": "http://revision3.com/api/oembed/", 
+        "name": "Revision3"
+    }, 
+    {
+        "url": "http://www.hulu.com/", 
+        "schemes": [
+            "http://www.hulu.com/watch/*"
+        ], 
+        "endpoint": "http://www.hulu.com/api/oembed.{format}", 
+        "name": "Hulu"
+    }, 
+    {
+        "url": "http://vimeo.com/", 
+        "schemes": [
+            "http://vimeo.com/*", 
+            "http://vimeo.com/groups/*/videos/*"
+        ], 
+        "endpoint": "http://vimeo.com/api/oembed.{format}", 
+        "name": "Vimeo"
+    }, 
+    {
+        "url": "http://www.collegehumor.com/", 
+        "schemes": [
+            "http://www.collegehumor.com/video/*"
+        ], 
+        "endpoint": "http://www.collegehumor.com/oembed.{format}", 
+        "name": "CollegeHumor"
+    }, 
+    {
+        "schemes": [
+            "http://www.jest.com/embed/*"
+        ], 
+        "name": "Jest", 
+        "url": "http://www.jest.com/", 
+        "endpoint": "http://www.jest.com/oembed.{format}"
+    }, 
+    {
+        "schemes": [
+            "http://www.jest.com/embed/*"
+        ], 
+        "name": "Jest", 
+        "url": "http://www.jest.com/", 
+        "endpoint": "http://www.jest.com/oembed.{format}"
+    }, 
+    {
+        "url": "http://www.polleverywhere.com/", 
+        "schemes": [
+            "http://www.polleverywhere.com/polls/*", 
+            "http://www.polleverywhere.com/multiple_choice_polls/*", 
+            "http://www.polleverywhere.com/free_text_polls/*"
+        ], 
+        "endpoint": "http://www.polleverywhere.com/services/oembed/", 
+        "name": "Poll Everywhere"
+    }, 
+    {
+        "url": "http://www.iFixit.com", 
+        "schemes": [
+            "http://www.ifixit.com/Guide/View/*"
+        ], 
+        "endpoint": "http://www.ifixit.com/Embed", 
+        "name": "iFixit"
+    }, 
+    {
+        "url": "http://www.smugmug.com/", 
+        "schemes": [
+            "http://*.smugmug.com/*", 
+            "http://*.example.com/*"
+        ], 
+        "endpoint": "http://api.smugmug.com/services/oembed/", 
+        "name": "SmugMug"
+    }, 
+    {
+        "url": "http://www.deviantart.com", 
+        "schemes": [
+            "http://*.deviantart.com/art/*", 
+            "http://*.deviantart.com/*#/d*", 
+            "http://fav.me/*", 
+            "http://sta.sh/*"
+        ], 
+        "endpoint": "http://backend.deviantart.com/oembed", 
+        "name": "Deviantart.com"
+    }, 
+    {
+        "url": "http://www.slideshare.net/", 
+        "schemes": [
+            "http://www.slideshare.net/*/*"
+        ], 
+        "endpoint": "http://www.slideshare.net/api/oembed/2", 
+        "name": "SlideShare"
+    }, 
+    {
+        "url": "http://www.chirbit.com/", 
+        "schemes": [
+            "http://chirb.it/*"
+        ], 
+        "endpoint": "http://chirb.it/oembed.json", 
+        "name": "chirbit.com"
+    }, 
+    {
+        "url": "http://www.nfb.ca/", 
+        "schemes": [
+            "http://*.nfb.ca/films/*"
+        ], 
+        "endpoint": "http://www.nfb.ca/remote/services/oembed/", 
+        "name": "nfb.ca"
+    }, 
+    {
+        "url": "http://www.scribd.com/", 
+        "schemes": [
+            "http://www.scribd.com/doc/*"
+        ], 
+        "endpoint": "http://www.scribd.com/services/oembed/", 
+        "name": "Scribd"
+    }, 
+    {
+        "url": "http://dotsub.com/", 
+        "schemes": [
+            "http://dotsub.com/view/*"
+        ], 
+        "endpoint": "http://dotsub.com/services/oembed", 
+        "name": "Dotsub"
+    }, 
+    {
+        "url": "http://animoto.com/", 
+        "schemes": [
+            "http://animoto.com/play/*"
+        ], 
+        "endpoint": "http://animoto.com/oembeds/create", 
+        "name": "Animoto"
+    }, 
+    {
+        "url": "http://rdio.com/", 
+        "schemes": [
+            "http://*.rdio.com/artist/*", 
+            "http://*.rdio.com/people/*"
+        ], 
+        "endpoint": "http://www.rdio.com/api/oembed/", 
+        "name": "Rdio"
+    }, 
+    {
+        "url": "http://mixcloud.com/", 
+        "schemes": [
+            "http://www.mixcloud.com/*/*/"
+        ], 
+        "endpoint": "http://www.mixcloud.com/oembed/", 
+        "name": "MixCloud"
+    }, 
+    {
+        "url": "http://www.screenr.com/", 
+        "schemes": [
+            "http://www.screenr.com/*/"
+        ], 
+        "endpoint": "http://www.screenr.com/api/oembed.{format}", 
+        "name": "Screenr"
+    }, 
+    {
+        "url": "http://www.funnyordie.com/", 
+        "schemes": [
+            "http://www.funnyordie.com/videos/*"
+        ], 
+        "endpoint": "http://www.funnyordie.com/oembed.{format}", 
+        "name": "FunnyOrDie"
+    }, 
+    {
+        "url": "http://polldaddy.com", 
+        "schemes": [
+            "http://*.polldaddy.com/s/*", 
+            "http://*.polldaddy.com/poll/*", 
+            "http://*.polldaddy.com/ratings/*"
+        ], 
+        "endpoint": "http://polldaddy.com/oembed/", 
+        "name": "Poll Daddy"
+    }, 
+    {
+        "url": "http://www.videojug.com", 
+        "schemes": [
+            "http://www.videojug.com/film/*", 
+            "http://www.videojug.com/interview/*"
+        ], 
+        "endpoint": "http://www.videojug.com/oembed.{format}", 
+        "name": "VideoJug"
+    }, 
+    {
+        "url": "http://videos.sapo.pt", 
+        "schemes": [
+            "http://videos.sapo.pt/*"
+        ], 
+        "endpoint": "http://videos.sapo.pt/oembed", 
+        "name": "Sapo Videos"
+    }, 
+    {
+        "url": "http://www.justin.tv", 
+        "schemes": [
+            "http://www.justin.tv/*"
+        ], 
+        "endpoint": "http://api.justin.tv/api/embed/from_url.{json}", 
+        "name": "Justin.tv"
+    }, 
+    {
+        "url": "http://official.fm", 
+        "schemes": [
+            "http://official.fm/tracks/*", 
+            "http://official.fm/playlists/*"
+        ], 
+        "endpoint": "http://official.fm/services/oembed.{format}", 
+        "name": "Official FM"
+    }, 
+    {
+        "url": "http://huffduffer.com", 
+        "schemes": [
+            "http://huffduffer.com/*/*"
+        ], 
+        "endpoint": "http://huffduffer.com/oembed", 
+        "name": "HuffDuffer"
+    }, 
+    {
+        "url": "http://shoudio.com", 
+        "schemes": [
+            "http://shoudio.com/*", 
+            "http://shoud.io/*"
+        ], 
+        "endpoint": "http://shoudio.com/api/oembed", 
+        "name": "Shoudio"
+    }, 
+    {
+        "url": "http://www.mobypicture.com", 
+        "schemes": [
+            "http://www.mobypicture.com/user/*/view/*", 
+            "http://moby.to/*"
+        ], 
+        "endpoint": "http://api.mobypicture.com/oEmbed", 
+        "name": "Moby Picture"
+    }, 
+    {
+        "url": "http://www.23hq.com", 
+        "schemes": [
+            "http://www.23hq.com/*/photo/*"
+        ], 
+        "endpoint": "http://www.23hq.com/23/oembed", 
+        "name": "23HQ"
+    }, 
+    {
+        "url": "http://urtak.com", 
+        "schemes": [
+            "http://urtak.com/u/*", 
+            "http://urtak.com/clr/*"
+        ], 
+        "endpoint": "http://oembed.urtak.com/1/oembed", 
+        "name": "Urtak"
+    }, 
+    {
+        "url": "https://cacoo.com", 
+        "schemes": [
+            "https://cacoo.com/diagrams/*"
+        ], 
+        "endpoint": "http://cacoo.com/oembed.{format}", 
+        "name": "Cacoo"
+    }, 
+    {
+        "url": "http://www.dipity.com", 
+        "schemes": [
+            "http://www.dipity.com/*/*/"
+        ], 
+        "endpoint": "http://www.dipity.com/oembed/timeline/", 
+        "name": "Dipity"
+    }, 
+    {
+        "url": "http://roomshare.jp", 
+        "schemes": [
+            "http://roomshare.jp/post/*", 
+            "http://roomshare.jp/en/post/*"
+        ], 
+        "endpoint": "http://roomshare.jp/en/oembed.{format}", 
+        "name": "Roomshare"
+    }, 
+    {
+        "url": "http://www.dailymotion.com", 
+        "schemes": [
+            "http://www.dailymotion.com/video/*"
+        ], 
+        "endpoint": "http://www.dailymotion.com/services/oembed", 
+        "name": "Daily Motion"
+    }, 
+    {
+        "url": "http://crowdranking.com", 
+        "schemes": [
+            "http://crowdranking.com/*/*"
+        ], 
+        "endpoint": "http://crowdranking.com/api/oembed.{format}", 
+        "name": "Crowd Ranking"
+    }, 
+    {
+        "url": "https://www.circuitlab.com/", 
+        "schemes": [
+            "https://www.circuitlab.com/circuit/*"
+        ], 
+        "endpoint": "https://www.circuitlab.com/circuit/oembed/", 
+        "name": "CircuitLab"
+    }, 
+    {
+        "url": "https://www.geograph.org.uk/", 
+        "schemes": [
+            "http://*.geograph.org.uk/*", 
+            "http://*.geograph.co.uk/*", 
+            "http://*.geograph.ie/*", 
+            "http://*.wikimedia.org/*_geograph.org.uk_*"
+        ], 
+        "endpoint": "http://api.geograph.org.uk/api/oembed", 
+        "name": "Geograph Britain and Ireland"
+    }, 
+    {
+        "url": "http://geo-en.hlipp.de/", 
+        "schemes": [
+            "http://geo-en.hlipp.de/*", 
+            "http://geo.hlipp.de/*", 
+            "http://germany.geograph.org/*"
+        ], 
+        "endpoint": "http://geo.hlipp.de/restapi.php/api/oembed", 
+        "name": "Geograph Germany"
+    }, 
+    {
+        "url": "http://channel-islands.geograph.org/", 
+        "schemes": [
+            "http://*.geograph.org.gg/*", 
+            "http://*.geograph.org.je/*", 
+            "http://channel-islands.geograph.org/*", 
+            "http://channel-islands.geographs.org/*", 
+            "http://*.channel.geographs.org/*"
+        ], 
+        "endpoint": "http://www.geograph.org.gg/api/oembed", 
+        "name": "Geograph Channel Islands"
+    }, 
+    {
+        "url": "http://www.quiz.biz/", 
+        "schemes": [
+            "http://www.quiz.biz/quizz-*.html"
+        ], 
+        "endpoint": "http://www.quiz.biz/api/oembed", 
+        "name": "Quiz.biz"
+    }, 
+    {
+        "url": "http://www.quizz.biz/", 
+        "schemes": [
+            "http://www.quizz.biz/quizz-*.html"
+        ], 
+        "endpoint": "http://www.quizz.biz/api/oembed", 
+        "name": "Quizz.biz"
+    }, 
+    {
+        "url": "http://coub.com/", 
+        "schemes": [
+            "http://coub.com/view/*", 
+            "http://coub.com/embed/*"
+        ], 
+        "endpoint": "http://coub.com/api/oembed.{format}", 
+        "name": "Coub"
+    }, 
+    {
+        "url": "https://speakerdeck.com", 
+        "schemes": [
+            "http://speakerdeck.com/*/*", 
+            "https://speakerdeck.com/*/*"
+        ], 
+        "endpoint": "https://speakerdeck.com/oembed.json", 
+        "name": "SpeakerDeck"
+    }, 
+    {
+        "url": "https://alpha.app.net/browse/posts/", 
+        "schemes": [
+            "https://alpha.app.net/*/post/*", 
+            "https://photos.app.net/*/*"
+        ], 
+        "endpoint": "https://alpha-api.app.net/oembed", 
+        "name": "Alpha App Net"
+    }, 
+    {
+        "url": "http://blip.tv/", 
+        "schemes": [
+            "http://*.blip.tv/*/*"
+        ], 
+        "endpoint": "http://blip.tv/oembed/", 
+        "name": "BlipTV"
+    }, 
+    {
+        "url": "http://yfrog.com/", 
+        "schemes": [
+            "http://*.yfrog.com/*", 
+            "http://yfrog.us/*"
+        ], 
+        "endpoint": "http://www.yfrog.com/api/oembed", 
+        "name": "YFrog"
+    }, 
+    {
+        "url": "http://instagram.com", 
+        "schemes": [
+            "http://instagram.com/p/*", 
+            "http://instagr.am/p/*"
+        ], 
+        "endpoint": "http://api.instagram.com/oembed", 
+        "name": "Instagram"
+    }, 
+    {
+        "url": "http://soundcloud.com/", 
+        "schemes": [
+            "http://soundcloud.com/*"
+        ], 
+        "endpoint": "https://soundcloud.com/oembed", 
+        "name": "SoundCloud"
+    }, 
+    {
+        "url": "http://on.aol.com/", 
+        "schemes": [
+            "http://on.aol.com/video/*"
+        ], 
+        "endpoint": "http://on.aol.com/api", 
+        "name": "On Aol"
+    }, 
+    {
+        "url": "http://www.kickstarter.com", 
+        "schemes": [
+            "http://www.kickstarter.com/projects/*"
+        ], 
+        "endpoint": "http://www.kickstarter.com/services/oembed", 
+        "name": "Kickstarter"
+    }, 
+    {
+        "url": "http://www.ustream.tv", 
+        "schemes": [
+            "http://*.ustream.tv/*", 
+            "http://*.ustream.com/*"
+        ], 
+        "endpoint": "http://www.ustream.tv/oembed", 
+        "name": "Ustream"
+    }, 
+    {
+        "url": "https://gmep.org", 
+        "schemes": [
+            "https://gmep.org/media/*"
+        ], 
+        "endpoint": "https://gmep.org/oembed.{format}", 
+        "name": "GMEP"
+    }, 
+    {
+        "url": "http://www.dailymile.com", 
+        "schemes": [
+            "http://www.dailymile.com/people/*/entries/*"
+        ], 
+        "endpoint": "http://api.dailymile.com/oembed?format=json", 
+        "name": "Daily Mile"
+    }, 
+    {
+        "url": "http://sketchfab.com", 
+        "schemes": [
+            "http://sketchfab.com/show/*", 
+            "https://sketchfab.com/show/*"
+        ], 
+        "endpoint": "http://sketchfab.com/oembed", 
+        "name": "Sketchfab"
+    }, 
+    {
+        "url": "http://www.meetup.com", 
+        "schemes": [
+            "http://meetup.com/*", 
+            "http://meetu.ps/*"
+        ], 
+        "endpoint": "https://api.meetup.com/oembed", 
+        "name": "Meetup"
+    }
+]
